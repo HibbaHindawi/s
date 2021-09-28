@@ -9,5 +9,17 @@
     background-color:maroon;
 }
 
+.button1{
+  position: fixed;
+  bottom: 500px;
+  right: 500px;
+  
+}
 
-
+.button2{
+  position: fixed;
+  bottom: 500px;
+  right: 700px;
+  width: 200px;
+  height: 50px;
+}

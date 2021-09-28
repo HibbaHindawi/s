@@ -1,5 +1,6 @@
 .image {
     position: fixed;
+<<<<<<< HEAD
     bottom: 200px;
     right: 300px;
     width: 30%;
@@ -8,3 +9,10 @@
 .body{
     background-color:maroon;
 }
+=======
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+>>>>>>> parent of 2ba0e2a (yyeas)

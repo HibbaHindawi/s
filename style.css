@@ -6,7 +6,7 @@
   }
 
 .body{
-  background-image: linear-gradient(to right, red, green, rgb(225, 123, 20));
+  background-image: linear-gradient(to right, orange, red, blue, green, black );
 }
 
 .button1{
@@ -32,8 +32,8 @@
 @keyframes lessgo {
   0%   {left:0px; top:0px;}
   25%  {left:1200px; top:0px;}
-  50%  {left:1200px; top:640px;}
-  75%  {left:0px; top:640px;}
+  50%  {left:1200px; top:600px;}
+  75%  {left:0px; top:600px;}
   100% {left:0px; top:0px;}
 }
 div.lessgo {
@@ -46,7 +46,7 @@ div.lessgo {
   border-radius: 50%;
 
   animation-name: lessgo;
-  animation-duration: 10s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }
@@ -54,8 +54,8 @@ div.lessgo {
 @keyframes lessgo2 {
   0%   {left:0px; top:0px;}
   25%  {left:1200px; top:0px;}
-  50%  {left:1200px; top:640px;}
-  75%  {left:0px; top:640px;}
+  50%  {left:1200px; top:600px;}
+  75%  {left:0px; top:600px;}
   100% {left:0px; top:0px;}
 }
 div.lessgo2 {
@@ -68,7 +68,7 @@ div.lessgo2 {
   border-radius: 50%;
 
   animation-name: lessgo2;
-  animation-duration: 10s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }
@@ -76,8 +76,8 @@ div.lessgo2 {
 @keyframes lessgo3 {
   0%   {left:0px; top:0px;}
   25%  {left:1200px; top:0px;}
-  50%  {left:1200px; top:640px;}
-  75%  {left:0px; top:640px;}
+  50%  {left:1200px; top:600px;}
+  75%  {left:0px; top:600px;}
   100% {left:0px; top:0px;}
 }
 div.lessgo3 {
@@ -90,7 +90,7 @@ div.lessgo3 {
   border-radius: 50%;
 
   animation-name: lessgo3;
-  animation-duration: 10s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }
@@ -98,8 +98,8 @@ div.lessgo3 {
 @keyframes lessgo4 {
   0%   {left:80px; top:0px;}
   25%  {left:1200px; top:0px;}
-  50%  {left:1200px; top:640px;}
-  75%  {left:0px; top:640px;}
+  50%  {left:1200px; top:600px;}
+  75%  {left:0px; top:600px;}
   100% {left:0px; top:0px;}
 }
 div.lessgo4 {
@@ -112,7 +112,7 @@ div.lessgo4 {
   border-radius: 50%;
 
   animation-name: lessgo4;
-  animation-duration: 10s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }

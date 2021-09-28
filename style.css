@@ -1,6 +1,7 @@
-.image{
-    position: absolute;
-    bottom: 0px;
-    margin-right:110px;
-    width: 45%;
-}
+.image {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }

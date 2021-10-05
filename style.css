@@ -9,20 +9,10 @@
   background-image: linear-gradient(to right, orange, red, blue, green, black );
 }
 
-.button1{
-  position: fixed;
-  bottom: 500px;
-  right: 400px;
-  width: 200px;
-  height: 50px;
-  font-size: 20px;
-  background-color: maroon;
-}
-
 .button2{
   position: fixed;
   bottom: 500px;
-  right: 705px;
+  right: 500px;
   width: 200px;
   height: 50px;
   font-size: 20px;
@@ -36,83 +26,83 @@
   75%  {left:0px; top:600px;}
   100% {left:0px; top:0px;}
 }
-div.lessgo {
+.lessgo {
   width: 200px;
   height: 100px;
-  position: relative;
+  position: fixed;
   background-color: white;
 
   border-color: blueviolet;
   border-radius: 50%;
 
   animation-name: lessgo;
-  animation-duration: 2s;
+  animation-duration: 0.02s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }
 
 @keyframes lessgo2 {
-  0%   {left:0px; top:0px;}
-  25%  {left:1200px; top:0px;}
-  50%  {left:1200px; top:600px;}
-  75%  {left:0px; top:600px;}
-  100% {left:0px; top:0px;}
+  0%   {left: 1200px;; top:0;}
+  25%  {left:1200px; top:600px;}
+  50%  {left:0px; top:600px;}
+  75%  {left:0px; top:0px;}
+  100% {left:1200px; top:0px;}
 }
-div.lessgo2 {
+.lessgo2 {
   width: 200px;
   height: 100px;
-  position: relative;
+  position: fixed;
   background-color: white;
 
   border-color: blueviolet;
   border-radius: 50%;
 
   animation-name: lessgo2;
-  animation-duration: 2s;
+  animation-duration: 0.02s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }
 
 @keyframes lessgo3 {
-  0%   {left:0px; top:0px;}
-  25%  {left:1200px; top:0px;}
-  50%  {left:1200px; top:600px;}
-  75%  {left:0px; top:600px;}
-  100% {left:0px; top:0px;}
+  0%   {left:1200px; top:600px;}
+  25%  {left:0px; top:600px;}
+  50%  {left:0px; top:0px;}
+  75%  {left:1200px; top:0px;}
+  100% {left:1200px; top:600px;}
 }
-div.lessgo3 {
+.lessgo3 {
   width: 200px;
   height: 100px;
-  position: relative;
+  position: fixed;
   background-color: white;
 
   border-color: blueviolet;
   border-radius: 50%;
 
   animation-name: lessgo3;
-  animation-duration: 2s;
+  animation-duration: 0.02s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }
 
 @keyframes lessgo4 {
-  0%   {left:80px; top:0px;}
-  25%  {left:1200px; top:0px;}
-  50%  {left:1200px; top:600px;}
-  75%  {left:0px; top:600px;}
-  100% {left:0px; top:0px;}
+  0%   {left:0px; top:600px;}
+  25%  {left:0px; top:0px;}
+  50%  {left:1200px; top: 0px;}
+  75%  {left:1200px; top:600px;}
+  100% {left:0px; top:600px;}
 }
-div.lessgo4 {
+.lessgo4 {
   width: 200px;
   height: 100px;
-  position: relative;
+  position: fixed;
   background-color: white;
 
   border-color: blueviolet;
   border-radius: 50%;
 
   animation-name: lessgo4;
-  animation-duration: 2s;
+  animation-duration: 0.02s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }
@@ -120,4 +110,18 @@ div.lessgo4 {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+}
+.box {
+  transition: 
+    width      0.5s,
+    background 0.5s 0.5s;
+}
+
+.box:hover {
+  width: 300px;
+  background: linear-gradient(to right, orange, red, blue, green, black );
+  color:white;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
 }

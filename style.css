@@ -36,7 +36,7 @@
   border-radius: 50%;
 
   animation-name: lessgo;
-  animation-duration: 0.02s;
+  animation-duration: 0.0002s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }
@@ -58,7 +58,7 @@
   border-radius: 50%;
 
   animation-name: lessgo2;
-  animation-duration: 0.02s;
+  animation-duration: 0.0002s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }
@@ -80,7 +80,7 @@
   border-radius: 50%;
 
   animation-name: lessgo3;
-  animation-duration: 0.02s;
+  animation-duration: 0.0002s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }
@@ -102,7 +102,7 @@
   border-radius: 50%;
 
   animation-name: lessgo4;
-  animation-duration: 0.02s;
+  animation-duration: 0.0002s;
   animation-iteration-count: infinite;
   visibility: hidden ;
 }

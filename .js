@@ -11,7 +11,7 @@ function button(){ //this changes a button to do two different things
         document.querySelector('.lessgo2').style.visibility = 'visible'
         document.querySelector('.lessgo3').style.visibility = 'visible'
         document.querySelector('.lessgo4').style.visibility = 'visible'
-        document.getElementById('test').innerHTML = "test1"
+        document.getElementById('test').innerHTML = "fuck you"
     }
     else{
         music.pause();
@@ -21,7 +21,7 @@ function button(){ //this changes a button to do two different things
         document.querySelector('.lessgo2').style.visibility = 'hidden'
         document.querySelector('.lessgo3').style.visibility = 'hidden'
         document.querySelector('.lessgo4').style.visibility = 'hidden'
-        document.getElementById('test').innerHTML = "test2"
+        document.getElementById('test').innerHTML = "LESS GOOO"
     }
     pressed = !pressed;
 }

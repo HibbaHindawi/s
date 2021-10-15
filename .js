@@ -12,6 +12,7 @@ function button(){ //this changes a button to do two different things
         document.querySelector('.lessgo3').style.visibility = 'visible'
         document.querySelector('.lessgo4').style.visibility = 'visible'
         document.getElementById('test').innerHTML = "Sheeeeeeeesh"
+        document.querySelector('.body').style.backgroundImage = "src('dababy.jpg')"
     }
     else{
         music.pause();
